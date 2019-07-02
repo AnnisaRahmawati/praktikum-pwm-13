@@ -1,0 +1,79 @@
+<!--
+Copyright 2018 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set character encoding -->
+  <meta charset="utf-8">
+  <!-- Set the viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <!-- Set title -->
+  <title>Fashion</title>
+  <!-- Request styles -->
+  <link rel="stylesheet" href="/style/main.css" />
+</head>
+<body>
+  <header>
+    <h1>FashionStyle</h1>
+  </header>
+  <main>
+    <div class="img-container">
+      <!-- image is CC0 - no attribution required https://unsplash.com/photos/w9tHZ5fi3e4 -->
+      <img src="images/3.jpg" alt="3">
+    </div>
+    <h2></h2>
+    <p>
+	Dress menjadi salah satu fashion item esensial untuk gaya boho chic. Untuk mengakali area yang tidak tertutup oleh dress, kamu dapat menggunakan teknik layering. Gunakan t-shirt sebagai dalaman dan outer yang tipis agar kamu tidak kepanasan. Pilihlah dress yang flowy untuk kesan bohemian yang kental. Untuk mini dress, kamu bisa menjadikannya sebagai atasan, lho!
+    </p>
+	<h2></h2>
+	    <div class="img-container">
+      <!-- image is CC0 - no attribution required https://unsplash.com/photos/w9tHZ5fi3e4 -->
+      <img src="/images/2.jpg" alt="2">
+    </div>
+    <h2></h2>
+    <p>
+    Gaya bohemian atau boho chic tidak hanya ditujukan untuk yang berani untuk memakai hot pants dan crop top. Kamu yang berhijab juga bisa memiliki gaya Bohemian yang loose dan stylish! Bahkan, fashion item muslim sangat potensial untuk gaya ini.
+
+
+    </p>
+	<h2></h2>
+	<div class="img-container">
+      <!-- image is CC0 - no attribution required https://unsplash.com/photos/w9tHZ5fi3e4 -->
+      <img src="/images/4.jpg" alt="4">
+    </div>
+    <h2></h2>
+    <p>
+	Tunic, peasant tops, atau blus longgar dengan pattern tribal bisa dijadikan pilihan. Pilihlah atasan dengan warna-warna earthy, seperti coklat, krem, putih, atau hijau. Namun, jika kamu ingin sedikit bereksperimen dengan warna, gunakanlah warna vibrant yang mencolok.
+    </p>
+  </main>
+  <footer>
+    <p> annisa rahmawati/165610119 </p>
+  </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('nisa-sw.js')
+        .then(swReg => {
+          console.log('Service Worker is registered', swReg);
+        })
+        .catch(err => {
+          console.error('Service Worker Error', err);
+        });
+      });
+    }
+  </script>
+</body>
+</html>
